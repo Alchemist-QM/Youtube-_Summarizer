@@ -1,10 +1,7 @@
 import os
-from dotenv import load_dotenv
-from openai import OpenAI
 import numpy as np
-
-
-
+from openai import OpenAI
+from dotenv import load_dotenv
 
 
 
@@ -243,4 +240,5 @@ class GenreSelector:
 
 #user_query = input("Enter your research query: ")
 #domains = GenreSelector.get_weighted_domains(user_query, top_k=3, mode="normal")
+
 
