@@ -3,7 +3,6 @@ from pptx import Presentation
 from pptx.util import Inches, Pt
 from pptx.enum.text import PP_ALIGN
 
-#MAX_SLIDES = 20
 
 
 class YoutubeConverter:
@@ -135,5 +134,6 @@ class YoutubeConverter:
 
         with open("slideshow.html", "w", encoding="utf-8") as f:
             f.write(html_head + intro_html + slides_html + outro_html + html_tail)
+
 
         print("HTML Slideshow saved as slideshow.html")
